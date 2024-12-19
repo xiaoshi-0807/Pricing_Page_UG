@@ -5,82 +5,83 @@ export const pricingTiers: PricingTier[] = [
   {
     pv: 3000,
     monthly: {
-      insight: 5980,
-      experience: 8980,
-      bundle: 11800
+      insight: 6578,
+      experience: 9878,
+      bundle: 12980
     },
     yearly: {
-      insight: 4980,
-      experience: 7980,
-      bundle: 9980
+      insight: 5478,
+      experience: 8778,
+      bundle: 10978
     }
   },
   {
     pv: 10000,
     monthly: {
-      insight: 11800,
-      experience: 19800,
-      bundle: 24800
+      insight: 12980,
+      experience: 21780,
+      bundle: 27280
     },
     yearly: {
-      insight: 9980,
-      experience: 14800,
-      bundle: 19800
+      insight: 10978,
+      experience: 16280,
+      bundle: 21780
     }
   },
   {
     pv: 50000,
     monthly: {
-      insight: 24800,
-      experience: 39800,
-      bundle: 49800
+      insight: 27280,
+      experience: 43780,
+      bundle: 54780
     },
     yearly: {
-      insight: 19800,
-      experience: 29800,
-      bundle: 39800
+      insight: 21780,
+      experience: 32780,
+      bundle: 43780
     }
   },
   {
     pv: 100000,
     monthly: {
-      insight: 39800,
-      experience: 59800,
-      bundle: 79800
+      insight: 43780,
+      experience: 65780,
+      bundle: 87780
     },
     yearly: {
-      insight: 29800,
-      experience: 49800,
-      bundle: 59800
+      insight: 32780,
+      experience: 54780,
+      bundle: 65780
     }
   },
   {
     pv: 200000,
     monthly: {
-      insight: 59800,
-      experience: 89800,
-      bundle: 119800
+      insight: 65780,
+      experience: 98780,
+      bundle: 131780
     },
     yearly: {
-      insight: 49800,
-      experience: 79800,
-      bundle: 99800
+      insight: 54780,
+      experience: 87780,
+      bundle: 109780
     }
   },
   {
     pv: 500000,
     monthly: {
-      insight: 79800,
-      experience: 129800,
-      bundle: 169800
+      insight: 87780,
+      experience: 142780,
+      bundle: 186780
     },
     yearly: {
-      insight: 69800,
-      experience: 119800,
-      bundle: 149800
+      insight: 76780,
+      experience: 131780,
+      bundle: 164780
     }
   }
 ];
+
 
 export const moduleData: Record<string, ModuleInfo> = {
   insight: {
