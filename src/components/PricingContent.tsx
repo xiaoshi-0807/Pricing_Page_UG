@@ -59,10 +59,13 @@ export function PricingContent() {
                     <PVSlider value={selectedPV} onChange={setSelectedPV} />
 
                     <div className="flex justify-between items-center mt-16 mb-8">
-                      <h2 className="text-2xl font-bold text-gray-900">
+                      <div className="flex justify-between items-center">
+                      　<h2 className="text-2xl font-bold text-gray-900">
                         現在選択中の製品は <span style={{ color: colors.primary }}>{currentModule.name}</span>
-                      </h2>
-                      <BillingToggle isYearly={isYearly} onChange={setIsYearly} />
+                      　</h2>
+                      　<BillingToggle isYearly={isYearly} onChange={setIsYearly} />
+                      </div>
+                      <p className="text-sm text-gray-500 mt-2">※料金の表記は全て税込金額となります。</p>
                     </div>
 
                     <PricingSection
