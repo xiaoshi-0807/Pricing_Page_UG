@@ -60,7 +60,7 @@ export function PricingContent() {
 
                     <div className="flex justify-between items-center mt-16 mb-8">
                       <h2 className="text-2xl font-bold text-gray-900">
-                        現在選択中の製品が <span style={{ color: colors.primary }}>{currentModule.name}</span>
+                        現在選択中の製品は <span style={{ color: colors.primary }}>{currentModule.name}</span>
                       </h2>
                       <BillingToggle isYearly={isYearly} onChange={setIsYearly} />
                     </div>
